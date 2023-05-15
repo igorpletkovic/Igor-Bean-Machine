@@ -1,0 +1,147 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  p, a {
+    font-family: 'Nunito Sans', sans-serif; 
+  }
+  
+   a {
+      color: black;
+  }
+    
+  .container {
+      width: 80%;
+      margin: auto;
+      max-width: 1200px;
+  }
+  
+  header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+  }
+  
+  h3 {
+      font-family: 'Nunito';
+      font-size: 48px;
+  }
+  
+  .nav-items{
+      display: flex;
+      align-items: center;
+      width: auto;
+  } 
+   
+  .sort {
+      font-family: 'Nunito';
+      font-size: 24px;
+      padding-right: 40px;
+  } 
+  
+  select {
+      background-color: #F6F2EF;
+      padding: 12px 60px 12px 24px;
+      font-family: 'Nunito';
+      font-size: 18px;
+      font-weight: 400;
+      border-radius: 20px;
+      border: none;
+  }
+  
+  .cardA {
+     position: relative;
+     flex-basis: 320px;
+     height: 460px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     background: #fbeef0;
+     border-radius: 16px;
+  }
+  label {
+      position: absolute;
+      right: 0;
+      top: 20px;
+      padding: 10px 20px;
+      background-color: #149770;
+      color: #ffffff;
+      font-family: 'Nunito'; 
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 20px 0 0 20px;
+  }
+  
+  .imgA {
+      width: 80%;
+  }
+  
+  .cardB {
+     position: relative;
+     flex-basis: 320px;
+     height: 460px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     background: #fbeef0;
+     border-radius: 16px;
+  }
+  
+  .imgB {
+      width: 80%;
+  }
+  
+  .cardC {
+     position: relative;
+     flex-basis: 320px;
+     height: 460px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     background: #fbeef0;
+     border-radius: 16px;
+  }
+  
+  .imgC {
+      width: 80%;
+  }
+  
+  .type {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      padding-top: px;
+      padding-bottom: px;
+  }
+  
+  .brasilian {
+      font-family: 'Nunito'; 
+      font-size: 20px;
+      font-weight: 700;
+  }
+  
+  .origin {
+      position: relative;
+      right: 105px;
+      font-family: 'Nunito sans'; 
+      font-size: 20px;
+  }
+  
+  .cost {
+      font-family: 'Nunito'; 
+      font-size: 20px;
+      font-weight: 700;
+  }
+  
+  @media (max-width: 767px){
+  .sort {
+      font-family: 'Nunito';
+      font-size: 24px;
+      padding: 0 20px 0 45px;
+   } 
+  }

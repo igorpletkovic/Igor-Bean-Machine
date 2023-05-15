@@ -1,0 +1,351 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  p, a {
+    font-family: 'Nunito Sans', sans-serif; 
+  }
+    
+  .container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+   }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 96px;
+    margin-top: 50px;
+  }
+  
+  .tbm span {
+    font-family: 'Nunito';
+    font-size: 20px;
+    color:#FF5678;
+  }
+  
+  .bare-right {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  
+  .abt a {
+    font-family: 'Nunito';
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sel a {
+    font-family: 'Nunito';
+    color: black;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .login {
+    margin-left: 30px;
+    padding:12px 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito';  
+    font-size: 16px;
+    font-weight: ExtraBold;
+    background-color: #FF5678;
+    color: white;
+    }
+  
+  banner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: center;
+    height: 600px;
+  } 
+  
+  h1 {
+    font-family: 'Nunito';
+    font-size: 96px;
+    margin-top: 80px;
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+  
+  .coffee {
+    position: relative;
+    width: 110%;
+    top: 80px;
+  }
+  
+  .arrow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    height: 110px; 
+    margin-top: 20px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid black;
+  }
+  
+  input {
+    background-color: #F6F2EF;
+    padding: 16px 100px 16px 24px;
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .bttn-right {
+    width: 70px;
+    height: 70px;
+    background-color: #FF5678;
+    border: none;
+    border-radius: 35px;
+    margin-left: 20px;
+    
+  }
+  .text-about {
+    padding-bottom: 100px;
+    border-bottom: 2px solid black; 
+  }
+  .about {
+    font-family: 'Nunito';
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 100px;
+  }
+  
+  .p1 {
+    font-family: 'Nunito';
+    font-size: 22px;
+    margin: 0 0 50px 0px;
+  }
+  
+  .p2 {
+    font-family: 'Nunito';
+    font-size: 22px;
+    margin: 0 0 50px 0px;
+  }
+  
+  .p3 {
+    font-family: 'Nunito';
+    font-size: 22px;
+    
+  }
+  
+  strong {
+    color:#FF5678;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+  .card1 {
+    flex-basis: 300px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fbeef0;
+    border-radius: 16px;
+  }
+  .img1 {
+    width: 80%;
+  }
+  .costa {
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .buy1 {
+    font-family: 'Nunito';
+    font-size: 20px;
+    width: 45%;
+    height: 10%;
+    background-color: #FF5678;
+    color: white;
+    border: none;
+    border-radius: 24px;
+  }
+  .img3 {
+      width: 80%;
+  }
+  .colombia {
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .buy3 {
+    font-family: 'Nunito';
+    font-size: 20px;
+    width: 45%;
+    height: 10%;
+    background-color: #FF5678;
+    color: white;
+    border: none;
+    border-radius: 24px;
+  }
+  
+  .img2 {
+      width: 80%;
+  }
+  .brasil {
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .buy2 {
+    font-family: 'Nunito';
+    font-size: 20px;
+    width: 45%;
+    height: 10%;
+    background-color: #FF5678;
+    color: white;
+    border: none;
+    border-radius: 24px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+  }
+  .find {
+    font-family: 'Nunito';
+    font-size: 16px;
+    color: white;
+    position: relative;  
+    top: 20px
+  }
+  
+  .social-imgs {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    position: relative;
+    top:40px;
+  }
+  .cat {
+    color: white;
+    width: 30px;
+    height: 30px;
+  }
+  .bird-of-prey {
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding:0 20px;
+  }
+  .fb {
+    color: white;
+    width: 30px;
+    height: 30px;
+  }
+  
+  @media (max-width: 767px) {
+   .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* background-color: #f0f0bc; */
+    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 96px;
+  }
+  
+  .sel a {
+     margin-Left: 20px;
+   }
+  
+   .abt a {
+     margin-left: 30px;
+   }
+  
+   .login {
+      margin-left: 0px;
+   }   
+  
+   banner {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    } 
+  
+   h1 {
+      font-family: 'Nunito';
+      font-size: 96px;
+      margin: 20px 0 0 80px;
+      font-weight: 800;
+   }
+  
+   h2 {
+      font-family: 'Nunito';
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 40px;
+   } 
+  
+   .coffee {
+       width:50%;
+       margin: 0 auto 80px auto;
+   }
+  
+  .text-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding-bottom: 50px;
+   }
+  
+   .about {
+      font-family: 'Nunito';
+      font-size: 48px;
+      font-weight: 900;
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
+      
+  .cards {
+      margin: 50px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+   }
+  }
+  
